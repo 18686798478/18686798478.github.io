@@ -1,3 +1,4 @@
+// alert("欢迎来到超级超级假淘宝")
 // 点击关闭二维码框
 var erweima=document.getElementById("erweima")
 var guanbi = document.getElementById("guanbi")
