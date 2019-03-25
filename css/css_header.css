@@ -1,0 +1,690 @@
+body,div,h4,img,a,span,ul,li,input{margin: 0;padding: 0;}
+body{position: relative; height:5000px;}
+li{
+    list-style: none;
+    line-height: 1;
+}
+img,span{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color:#3c3c3c;
+    line-height: 1;
+    font-size: 12px;
+}
+
+/* 下拉滚动条出现的搜索框 */
+.xlsousuo{
+    height:40px;
+    width:100%;
+    background: red;
+    position: fixed;
+    top:0;
+    z-index: 2;
+    display: none;
+}
+/* 右侧浮动的楼层 */
+.louceng{
+    width:50px;
+    position: absolute;
+    right:15px;
+    top:486px;
+    background: pink;
+}.louceng-ul li{
+    widows: 50px;
+    height:50px;
+    /* background: blue; */
+}.louceng .louceng-ul .louceng-a{
+    background: yellow;
+}
+
+ /* 顶部导航背景颜色*/
+.bg_header{                                    
+    height: 35px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eeeeee;
+}
+ /*   顶部导航版心*/
+.bg_header .bg_header_top{                   
+    width: 1190px;
+    height:35px;
+    margin: 0 auto;
+    /* background: pink; */
+    position: relative;
+}
+ /* 顶部左边ul*/
+.bg_header .bg_header_top .bg_nav_left{    
+    height: 35px;
+    float: left;
+}
+ /*  导航左侧字体样式a标签 */
+.bg_header .bg_header_top .bg_nav_left a{               
+    /* font-size: 12px; */
+    line-height: 1
+}
+/*  顶部左侧导航li*/
+.bg_header .bg_header_top .bg_nav_left li{                  
+    float: left;
+    line-height: 35px;
+    height: 35px;
+    font-size:12px;
+}
+/* 顶部左边ul li 第一个 中国大陆*/
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(1){           
+    background: url(../image/xia_sanjiao2.png) no-repeat 63px 15px;
+    width:78px;
+    height:35px;
+    margin-right:9px;
+    box-sizing: border-box;
+     border-left:1px solid rgba(0, 0, 0, 0);
+    border-right:1px solid rgba(0, 0, 0, 0);
+}
+/*！！鼠标经过中国大陆效果*/
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(1):hover{
+    background: url(../image/xia_sanjiao2.png) no-repeat 63px 15px #fff; 
+    border-left:1px solid #EEE;
+    border-right:1px solid #EEE;
+    box-sizing: border-box;  
+    border-bottom: 1px solid #fff;
+    height:36px;
+}
+/*鼠标经过顶部导航栏第三个免费注册*/
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(3):hover a{
+    color: #f22e00;
+}
+/*鼠标经过顶部导航栏第四个免费注册*/
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(4):hover a{
+    color: #f22e00;
+}
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(1):hover .nav_two{
+    display: block
+}
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(1) a{
+    padding-left:6px;
+}
+/*顶部左边ul li第二个*/
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(2){      
+    margin-right:8px;
+    
+}
+/*顶部左边ul li第三个*/
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(3){      
+    margin-right:20px;
+    
+}
+.bg_header .bg_header_top .bg_nav_left li:nth-of-type(2) a{
+    color:#f22e00; 
+}
+ /*中国大陆二级菜单*/
+.bg_header .bg_header_top .bg_nav_left .nav_two{           
+    overflow-y: auto;
+    max-height: 270px;
+    width: 242px;
+    position: absolute;
+    top: 36px;
+    left:0px;
+    display: none;
+    border-left:1px solid #EEE;
+    border-bottom:1px solid #EEE;
+    background: #fff;
+    z-index: 1;
+}
+/*二级菜单li样式*/
+.bg_header .bg_header_top .bg_nav_left .nav_two li{ 
+    background: none;
+    height: 29px;
+    width: 241px;
+    float: none;
+    line-height: 29px;   
+    border: 0;   
+    
+}
+/* 二级菜单全球和上部的li重合，需单选全球去除上部li效果 */
+.bg_header .bg_header_top .bg_nav_left .nav_two li:nth-of-type(1){
+    height:29px;
+    line-height: 29px;
+    margin-top:10px;
+}
+/*去除二级菜单中国大陆颜色*/
+.bg_header .bg_header_top .bg_nav_left .nav_two li a{ 
+    color:#3c3c3c;
+}
+/*！！鼠标经过二级菜单li显示的样式*/
+.bg_header .bg_header_top .bg_nav_left .nav_two li:hover{   
+    background: #f5f5f5;
+    border: 0;  
+}
+/*！！鼠标经过二级菜单li a标签字体颜色*/
+.bg_header .bg_header_top .bg_nav_left .nav_two li:hover a{   
+ color:#3c3c3c;
+}
+
+ /*！！顶部导航右侧ul导航*/
+.bg_header_top .bg_nav_right{
+    float: right;
+    height: 35px;
+
+}
+/*！！顶部导航右侧li导航*/
+.bg_header_top .bg_nav_right li{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+.bg_header_top .bg_nav_right li a{line-height: 35px;}
+/*！！顶部导航右侧第一个我的淘宝导航*/
+.bg_header_top .bg_nav_right .nav_right-1{
+    width: 79px;
+    background: url(../image/xia_sanjiao2.png) no-repeat 65px 15px; 
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    position: relative;
+}
+/*！！鼠标经过我的淘宝显示效果及二级菜单*/
+.bg_header_top .bg_nav_right .nav_right-1:hover{
+    background: url(../image/xia_sanjiao2.png) no-repeat 65px 15px #fff; 
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom:px solid #fff;
+}
+/*！！鼠标经过我的淘宝二级菜单显示*/
+.bg_header_top .bg_nav_right .nav_right-1:hover .nav_right-1-u{
+    display: block;
+}
+/*！！顶部导航右侧第一个我的淘宝导航*/
+.bg_header_top .bg_nav_right .nav_right-1 a{
+    margin-left: 8px;
+}
+/*！！顶部导航右侧第二个购物车导航*/
+.bg_header_top .bg_nav_right .nav_right-2{
+    width: 84px;
+    text-align: center;
+    background: url(../image/gou_wu1.jpg) no-repeat 5px 12px,
+     url(../image/xia_sanjiao2.png) no-repeat 70px 15px;  
+}
+/* 鼠标经过购物车效果 */
+.bg_header_top .bg_nav_right .nav_right-2:hover a{
+    color:#f22e00;
+}
+/*！！顶部导航右侧第三个收藏夹导航*/
+.bg_header_top .bg_nav_right .nav_right-3{
+    width: 84px;
+    text-align: center;
+    background: url(../image/xia_sanjiao2.png) no-repeat 70px 15px,
+    url(../image/sc_icon1.png) no-repeat 9px 12px;
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    position: relative;
+}
+/*！！鼠标经过收藏夹显示效果*/
+.bg_header_top .bg_nav_right .nav_right-3:hover{
+   background: url(../image/xia_sanjiao2.png) no-repeat 70px 15px,
+    url(../image/sc_icon.png) no-repeat 9px 12px #fff;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom:1px solid #fff;
+}
+/*！！鼠标经过收藏夹显示ul*/
+.bg_header_top .bg_nav_right .nav_right-3:hover .nav_right-3-u{
+    display: block;
+}
+/*！！顶部导航右侧第四个商品分类导航*/
+.bg_header_top .bg_nav_right .nav_right-4{
+    width: 67px;
+    text-align: center;
+}
+/* 鼠标经过商品分类效果 */
+.bg_header_top .bg_nav_right .nav_right-4:hover a{
+    color: #f22e00
+}
+/*！！顶部导航右侧第五个竖线分割线BG*/
+.bg_header_top .bg_nav_right .nav_right-5{
+    width: 2px;
+    background: url(../image/fen_ge.jpg) no-repeat center center  ;
+    margin:0px 5px; 
+} 
+/*！！顶部导航右侧第六、七个卖家中心和联系客服导航*/
+.bg_header_top .bg_nav_right .nav_right-6{
+    width: 79px;
+    background: url(../image/xia_sanjiao2.png) no-repeat 63px 15px; 
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+    position: relative;
+}
+/* 鼠标经过卖家中心样式 */
+.bg_header_top .bg_nav_right .nav_right-6:hover{
+    background: url(../image/xia_sanjiao2.png) no-repeat 63px 15px #fff; 
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom:1px solid #fff;
+}
+.bg_header_top .bg_nav_right .nav_right-6:hover .nav_right-6-u{
+    display: block;
+}
+
+.bg_header_top .bg_nav_right .nav_right-6 a{
+    padding-left: 7px;
+}
+/*！！顶部导航右侧第八个网站导航*/
+.bg_header_top .bg_nav_right .nav_right-8{
+    width: 96px;
+    background: url(../image/daohang.png) no-repeat 8px 13px,
+    url(../image/xia_sanjiao2.png) no-repeat 80px 15px; 
+    text-align: center;   
+    border-left: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5; 
+}
+/* 鼠标经过第八个网站导航的效果 */
+.bg_header_top .bg_nav_right .nav_right-8:hover{
+    background: url(../image/daohang.png) no-repeat 8px 13px,
+    url(../image/xia_sanjiao2.png) no-repeat 80px 15px #fff;
+    border-left: 1px solid #EEE;
+    border-right: 1px solid #EEE;
+    border-bottom:1px solid #fff;
+}
+/* 鼠标经过第八个网站导航显示二级菜单效果 */
+.bg_header_top .bg_nav_right .nav_right-8:hover .nav_right-8-1{
+    display: block;
+}
+/*！！顶部导航右侧我的淘宝二级菜单ul*/
+.bg_nav_right .nav_right-1 .nav_right-1-u{
+    display: none;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right:1px solid #eeeeee;
+    width:84px;
+    min-height:28px;
+    max-height:214px;
+    position:absolute;
+    top:35px;
+    left:-1px;
+    padding:8px 0;
+    background: #fff;
+    z-index: 1;
+}
+/* 顶部右侧我的淘宝二级ul li样式 */
+.bg_nav_right .nav_right-1 .nav_right-1-u li{  
+    height:28px;
+    width:84px;
+    line-height: 28px;
+}
+.bg_nav_right .nav_right-1 .nav_right-1-u li a{line-height: 28px;}
+.bg_nav_right .nav_right-1 .nav_right-1-u li:hover{background: #EEE}
+/*！！顶部导航右侧收藏夹二级菜单ul*/
+.bg_nav_right .nav_right-3 .nav_right-3-u{
+    display: none;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right:1px solid #eeeeee;
+    width:72px;
+    min-height:28px;
+    max-height:214px;
+    position:absolute;
+    top:35px;
+    left:-1px;
+    padding:8px 0;
+    background: #fff;
+    z-index: 1;
+}
+/* 顶部右侧收藏夹二级ul li样式 */
+.bg_nav_right .nav_right-3 .nav_right-3-u li{  
+    height:28px;
+    width:72px;
+    line-height: 28px;
+}
+.bg_nav_right .nav_right-3 .nav_right-3-u li a{line-height: 28px;}
+.bg_nav_right .nav_right-3 .nav_right-3-u li:hover{background: #EEE}
+
+
+/* 顶部右侧卖家中心二级ul */
+.bg_nav_right .nav_right-6 .nav_right-6-u{
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right:1px solid #eeeeee;
+    width:84px;
+    min-height:28px;
+    max-height:214px;
+    top:35px;
+    left:-1px;
+    display: none;
+    position: absolute;
+    padding:8px 0;
+    background: #fff;
+    z-index: 1;
+}
+/* 顶部右侧卖家中心二级ul li样式 */
+.bg_nav_right .nav_right-6 .nav_right-6-u li{  
+    height:28px;
+    width:84px;
+    line-height: 28px;
+}
+.bg_nav_right .nav_right-6 .nav_right-6-u li a{line-height: 28px;}
+.bg_nav_right .nav_right-6 .nav_right-6-u li:hover{background: #EEE}
+
+
+/*  顶部网站导航二级菜单样式  */
+.bg_header_top{position: relative;}
+.bg_header_top .nav_right-8-1{
+    width: 1188px;
+    display: none;
+    min-height:258px;
+    position: absolute;
+    top:35px;
+    right:0;
+    left:auto;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee; 
+    z-index: 1;
+    background: #fff;
+}
+/* 第八个导航二级菜单四组大框样式 */
+.bg_header_top .nav_right-8-1 .left-8-1{
+    width: 25%;
+    float: left;
+    background: #fff;
+}
+/* 第八个导航二级菜单第一组ul */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-1{ 
+    min-height:219px;
+    max-height:309px;
+    padding:5px;
+    border-right:1px solid #EEE;
+    overflow: hidden; 
+}
+/* 鼠标经过二级菜单第一组样式 */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-1 li a:hover{
+    background: #f22e00;
+    color:#fff;
+}
+/* 第八个导航二级菜单第二组ul */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-2{ 
+    min-height:219px;
+    max-height:309px;
+    padding:5px;
+    border-right:1px solid #EEE;
+    overflow: hidden;
+}
+/* 鼠标经过二级菜单第二组样式 */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-2 li a:hover{
+    background: #abbd51;
+    color:#fff;
+}
+/* 第八个导航二级菜单第三组ul */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-3{ 
+    min-height:219px;
+    max-height:309px;
+    padding:5px;
+    border-right:1px solid #EEE;
+    overflow: hidden;
+}
+/* 鼠标经过二级菜单第三组样式 */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-3 li a:hover{
+    background: #c5739b;
+    color:#fff;
+}
+/* 第八个导航二级菜单第四组ul */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-4{ 
+    min-height:219px;
+    max-height:309px;
+    padding:5px;
+    overflow: hidden;
+}
+/* 鼠标经过二级菜单第四组样式 */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-4 li a:hover{
+    background: #2d96c5;
+    color:#fff;
+}
+/* 第八个导航二级菜单四组标题 */
+.bg_header_top .nav_right-8-1 .left-8-1 h4{
+    width:276px;
+    height:19px;
+    margin:5px;
+    font-size:16px;
+    text-align: left;
+    line-height:1;
+}
+/* 第八个导航二级菜单第一组li */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-1 li{
+    width:24%;
+    height:25px;
+    float: left;
+    padding-top:5px;
+    text-align: left;
+    line-height: 1;
+}
+/* 第八个导航二级菜单第二组li */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-2 li{
+    width:33%;
+    height:25px;
+    float: left;
+    padding-top:5px;
+    text-align: left;
+    line-height: 1;
+}
+/* 第八个导航二级菜单第三组li */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-3 li{
+    width:33%;
+    height:25px;
+    float: left;
+    padding-top:5px;
+    text-align: left;
+    line-height: 1;
+}/* 第八个导航二级菜单第四组li */
+.bg_header_top .nav_right-8-1 .left-8-1 .left-ul-4 li{
+    width:49%;
+    height:25px;
+    float: left;
+    padding-top:5px;
+    text-align: left;
+    line-height: 1;
+}
+/* 第八个导航二级菜单四组li a */
+.bg_header_top .nav_right-8-1 .left-8-1 li a{
+    height:25px;
+    /* width:25px; */
+    line-height: 25px;
+    margin:0 2px;
+    padding:0 8px;
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+}
+/* 导航icon-H */
+.bg_header_top .nav_right-8-1  a .icon_h{
+    background: url(../image/icon_h.gif) no-repeat;
+    height:25px;
+    width:10px;
+    position: absolute;
+    right:-2px;
+    top:-5px;
+}
+/* 导航icon-N */
+.bg_header_top .nav_right-8-1 .icon_n{
+    background: url(../image/icon_n.gif) no-repeat;
+    height:25px;
+    width:10px;
+    position: absolute;
+    right:-2px;
+    top:-5px;
+}
+
+
+
+/* 头部搜素区域部分版心 */
+.top_center{
+}
+/* 头部搜素区域部分版心 */
+.top_center-x{
+    width:1190px;
+    height:88px;
+    margin:0 auto;
+    margin-top:24px;
+    position: relative;
+}
+/* 头部搜素区域logo图片div */
+.top_center-x .left_logo{
+    float: left;
+    width:144px;
+    height:88px;
+    overflow: hidden;
+    margin-left:22px;
+}
+/* 头部搜素区域logo图片 */
+.top_center-x .left_logo img{
+    margin-top:9px;
+}
+/* 中间搜索大框 */
+.top_center-x .center_text{
+    float: left;
+    height:88px;
+    width: 635px;
+    margin-left:94px;
+}
+/* 中间搜索宝贝天猫店铺大框 */
+.top_center-x .center_text .nav_three{
+    width:120px;
+    height:23px;
+    text-align: center;
+    margin-left:18px;
+}
+/* 中间搜索宝贝天猫店铺样式 */
+.top_center-x .center_text .nav_three span{
+    float: left;
+    width:36px;
+    height:23px;
+    margin-right:4px;   
+}
+/* 中间三个导航宝贝默认样式 */
+.top_center-x .center_text .nav_three .baobei{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    /* background: #f22e00  */
+    background-image:linear-gradient(to right,#ff9000 0,#ff5000 100%);
+}
+/* 中间三个导航宝贝字体颜色 */
+.top_center-x .center_text .nav_three .baobei a{
+    color:#fff;
+}
+/* 中间搜索宝贝天猫店铺字体颜色 */
+.top_center-x .center_text .nav_three span a{
+    color:#ff4400;
+    line-height: 23px;
+}
+/* 鼠标经过宝贝样式 */
+.top_center-x .center_text .nav_three .baobei:hover{
+    background:pink; 
+}
+/* 鼠标经过天猫样式 */
+.top_center-x .center_text .nav_three .tianmao:hover{
+    background:pink; 
+}
+/* 鼠标经过店铺样式 */
+.top_center-x .center_text .nav_three .dianpu:hover{
+    background:pink; 
+}
+
+
+/* 搜索框 */
+.top_center-x .center_text .text-s{
+    width:630px;
+    height:40px;
+}
+/* 文本框大框 */
+.top_center-x .center_text .text-t{
+    width:630px;
+    height:36px;
+    border-top:2px solid #ff5000;
+    border-left:2px solid #ff5000;
+    border-bottom:2px solid #ff5000;
+    /* border-top-left-radius:20px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 20px;
+    float: left;
+}
+/* 按钮大框 */
+.top_center-x .center_text .text-s .sousuo{
+    width:74px;
+    height:36px;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    float: right;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+/* 文本框样式 */
+.top_center-x .center_text .text-t .inpt_t{
+    display: block;
+    float: left;
+    margin-top:10px;
+    margin-left:11px;
+    width:468px;
+    border: 0;
+    outline:none;
+    background: url(../image/sousuo_icon.jpg) no-repeat #fff;  
+}
+/* 搜索按钮样式 */
+.top_center-x .center_text .text-t .inpt_sbt{
+    border: none;
+    background: none;
+    color:#fff;
+    font-size:17px;
+    line-height: 36px;
+    outline:none;
+    margin-left:20px;
+}
+.top_center-x .center_text .text-t img{
+    float: left;
+    margin-left:40px;
+    margin-top:7px;
+}
+
+/* 搜索下面的导航 */
+.center_text .nav-bottom {
+    margin-top:5px;
+}
+/* 搜索下面的导航 li */
+.center_text .nav-bottom li{
+    float: left;
+    margin-right:5px;
+}
+/* 特殊突出潮流T恤样式 */
+.center_text .nav-bottom li:nth-of-type(3) a{color:#f22e00;}
+/* 鼠标经过导航效果 */
+.center_text .nav-bottom li:hover a{
+    color:#f22e00;
+}
+
+
+/* 右侧二维码大框 */
+.top_center .top_center-x .two_code{
+    width:92px;
+    height:90px;
+    float: left;
+    position: absolute;
+    top:0;
+    right:110px;
+}
+/* 右侧二维码关闭小框 */
+.top_center .top_center-x .two_code .cha_off{
+    width:14px;
+    height:14px;
+    background: url(../image/cha_qian.png) no-repeat center center;
+    background-size: 40%;
+    border: 1px solid #eeeeee;
+    float: left;
+}
+/* 鼠标经过叉号效果 */
+.top_center .top_center-x .two_code .cha_off:hover{
+    background: url(../image/cha_shen.png) no-repeat center center;
+    background-size: 40%;
+}
+/* 右侧二维码图片文字 */
+.top_center .top_center-x .two_code .text_code{
+    width:74px;
+    height:88px;
+    float: left;
+    border: 1px solid #eeeeee;
+}

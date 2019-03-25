@@ -1,0 +1,185 @@
+body,div,h4,h3,h5,img,a,span,ul,li,input,p{margin: 0;padding: 0;}
+li{
+    list-style: none;
+    line-height: 1;
+}
+img,span,input{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color:#3c3c3c;
+    line-height: 1;
+    font-size: 12px;
+}
+/* 上面部分 */
+/* .top{
+} */
+.top_center{
+    width:1200px;
+    height:88px;
+    margin:0 auto;
+    /* background: blue; */
+    overflow: hidden;
+}.top_center img{
+    margin-top:15px;
+    float: left;
+}.top_center p{
+    width:900px;
+    height:30px;
+    border: 1px solid red;
+    background: #fef2f2;
+    text-align: center;
+    line-height: 30px;
+    font-size:12px;
+    float: left;
+    margin-top:23px;
+    margin-left:93px;
+}
+
+/* 中间部分 */
+.center{
+    /* width:1366px; */
+    height:602px;
+    margin:0 auto;
+    background-image: url(../image/bgdenglu.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.center-1{
+    /* width:1366px; */
+    height:602px;
+    margin:0 auto;
+    background-image: url(../image/bgzhuce.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.denglukuang{
+    width:350px;
+    height:350px;
+    background: #e9e9f2;
+    position: absolute;
+    top: 120px;
+    right: 143px;
+}.denglukuang1{
+    width:300px;
+    height:293px;
+    margin:26px;
+    /* background: red; */
+}
+.denglukuang1 h3{
+    font-size:16px;
+    height: 16px;
+    line-height: 1;
+    /* padding-top:35px;
+    padding-left:26px; */
+}
+/* 用户名 */
+.yhm{
+    width:300px;
+    height:40px;
+    background: #fff;
+    margin-top:28px;
+    margin-bottom: 19px;
+    border: 1px solid #dddddd;
+}.yhm_left{
+    float: left;
+    width:40px;
+    height:40px;
+    background: pink;
+}.yhm_right{
+    float: left;
+    width:248px;
+    height:40px;
+    margin-left:10px;
+}.yhm_right input{
+    width:250px;
+    border: none;
+    line-height:40px; 
+}
+/* 密码框 */ 
+ .mmk{
+    width:300px;
+    height:40px;
+    background: #fff;
+    border: 1px solid #dddddd;
+} 
+/* 登录按钮 */
+.login{
+    width:300px;
+    height:42px;
+    background: #ff4400;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size:14px;
+    margin-top:20px;
+}
+.qita{
+    width:176px;
+    margin-top:25px;
+    height:12px;
+}.qita .s1{
+    font-size:14px;
+    float: left;
+    color:#6c6c6c;
+}.qita .s2{
+    font-size:14px;
+    float: left;
+    margin-left:45px;
+    color:#6c6c6c;
+}
+.qita1{
+    width:300px;
+    height:12px;
+    margin-top:26px;
+    margin-left:83px;
+}.qita1 .s3{
+    font-size:14px;
+    float: left;
+    color:#6c6c6c;
+    margin-right:14px;
+}.qita1 .s4{
+    font-size:14px;
+    float: left;
+    color:#6c6c6c;
+    margin-right:14px;
+}.qita1 .s5{
+    font-size:14px;
+    float: left;
+    /* margin-left:45px; */
+    color:#6c6c6c;
+}
+
+/* 底部 */
+.bottom{
+    width:1200px;
+    height:230px;
+    margin:0 auto;
+    /* background: red; */
+    overflow: hidden;
+}.bottom_li{
+    width:1200px;
+    height:42px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin:0 auto;
+    margin-top:60px;
+    
+}.bottom_li li{
+    /* width:82px; */
+    height:13px;
+    font-size: 11px;
+    color:#6c6c6c;
+    float: left;
+    background: url(../image/fen_ge.jpg) no-repeat center right;
+    padding-right:7px;
+    padding-left:7px;
+    line-height: 14px;
+}.bottom_li ul{
+    margin-top:15px;
+}.bottom_li li:last-of-type{
+    background: none;
+}

@@ -1,0 +1,388 @@
+/* 内容一整块 */
+.section-01{
+    width:1190px;
+    height:658px;
+    /* background: red; */
+    margin:0 auto;
+    margin-top:10px;
+}
+/* 内容左面大框 */
+.section-tb-left{
+    width:590px;
+    height:658px;
+    background: #fff;
+    float: left;
+}
+/* 内容右面大框 */
+.section-tb-right{
+    width:590px;
+    height:658px;
+    background: #fff;
+    float: right;
+}
+/* 有好货一条div框 */
+.youhaohuo{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    height:24px;
+    margin-right:20px;
+}
+/* 有好货图 */
+.youhaohuo img{
+    width:74px;
+    height:24px;
+    float: left;
+}
+.youhaohuo .yhh-1{
+    float: left;
+    font-size:12px;
+    color:#999999;
+    line-height: 24px;
+    margin-left:10px;
+}.youhaohuo .yhh-2{
+    float: right;
+    
+    
+}.youhaohuo .yhh-2 a{
+    color:#999999;
+    display: block;
+    line-height: 24px;
+}
+/* 产品图和文字ul大框 */
+ .ban-ul{
+    width:549px;
+    height:594px;
+    margin-left:20px;
+    
+}
+/* 图 */
+.ban-ul img{
+
+}.ban-ul li{
+    width:180px;
+    height:288px;
+    background: #fff;
+    float: left;
+}
+/* 鼠标经过li效果 */
+.ban-ul li:hover img{
+    opacity: .8;
+}.ban-ul li:hover .text-a{
+    color:#F40;
+}.ban-ul li:hover .text-b{
+    color:#F40;
+}
+/* li第二个左右小间距 */
+.ban-ul .ban-li-2{
+    margin-left:4px;
+    margin-right:4px;
+}
+.ban-ul .ban-li-4{
+    margin-top:18px;
+}
+.ban-ul .ban-li-5{
+    margin-left:4px;
+    margin-right:4px;
+    margin-top:18px;
+}.ban-ul .ban-li-6{
+    margin-top:18px;
+}
+/* 图下面第一行文字 */
+.ban-ul .text-a{
+    font-size:16px;
+    margin-top:10px;
+    display: block;
+}.ban-ul .text-b{
+    font-size:14px;
+    margin-top:10px;
+    display: block;
+    color: #999999;
+    line-height: 22px;
+    height:44px;
+    overflow: hidden;
+    background: url(../image/douhao-icon.jpg) no-repeat;
+    padding-left:16px;
+}
+
+
+/* 图下面第二行文字 */
+.ban-ul .text-p{
+    color:#999999;
+    overflow: hidden;
+    /* width:181px; */
+    height:14px;
+    font-size:14px;
+    margin-top:11px;
+}
+/* 图下面第三行文字 */
+.ban-ul .text-s{
+    font-size:14px;
+    color: #35b8ff;
+    background:url(../image/xiaolian-icon.png) no-repeat left;
+    width:110px;
+    height:14px;
+    padding-left:18px;
+    margin-top:21px;
+}.ban-ul .text-s-1{
+    font-size:12px;
+    color: #999999;
+    /* width:110px; */
+    height:22px;
+    padding-left:3px;
+    margin-top:14px;
+    line-height: 22px;
+}.text-s-1 img{
+    float: left;
+    border-radius: 50%;
+    width:22px;
+    height:22px;
+    margin-right: 10px;
+}
+
+/* 倒计时块 */
+.section-02{
+    width:1190px;
+    height:265px;
+    margin:0 auto;
+    background: #fff;
+    margin-top:10px;
+}
+/* 淘抢购一块 */
+.taoqianggou{
+    widows: 1190px;
+    height:65px;
+    /* background: gray; */
+    overflow: hidden;
+}.taoqianggou img{
+    width:80px;
+    height:22px;
+    margin-top:20px;
+    margin-left:20px;
+    float: left;
+}
+/* 倒计时框 */
+.taoqianggou .time-t{
+    width:118px;
+    height:20px;
+    font-size:12px;
+    line-height: 20px;
+    margin-left:11px;
+    float: left;
+    /* background: blue; */
+    color: #F40;
+    margin-top:22px;
+    text-align: center;
+}.time-jjs{
+    float: left;
+    color: #999999;
+    margin-right:3px;
+}.time-a{
+    width:20px;
+    height:20px;
+    background: pink;
+    float: left;
+    border-radius: 1px;
+    margin-right:3px;
+}.time-b{
+    width:20px;
+    height:20px;
+    background: pink;
+    float: left;
+    margin-left:3px;
+    margin-right:3px;
+    border-radius: 1px;
+}.time-c{
+    width:20px;
+    height:20px;
+    background: pink;
+    float: left;
+    margin-left:3px;
+    border-radius: 1px;
+}.time-t strong{
+    float: left;
+}
+
+/* 右面的换一换更多框 */
+.huan-geng{
+    width:86px;
+    height:20px;
+    /* background: yellow; */
+    float: right;
+    margin-top:22px;
+    margin-right:23px;
+}.huan-geng .huan{
+    color: #999999;
+    display: block;
+    float: left;
+    line-height: 20px;
+    margin-right:15px;
+}.huan-geng .geng{
+    color: #999999;
+    display: block;
+    float: left;
+    line-height: 20px;
+    width:33px;
+    height:20px;
+    background: url(../image/you-sj-2.png) no-repeat right;
+}
+/* 抢购下面的图 ul 框 */
+.qianggou-ul{
+    width:1150px;
+    height:180px;
+    /* background: blue; */
+    margin-left:20px;
+    
+}
+/* 抢购下面的图li 框 */
+.qianggou-li-1{
+    width:395px;
+    height:180px;
+    /* background: pink; */
+    float: left;
+}
+/* 鼠标移动第一个li效果 */
+.qianggou-li-1:hover .qianggou-text-1 h5{color: #F40}
+.qianggou-li-1:hover img{opacity: .8;}
+
+.qianggou-li-2{
+    width:395px;
+    height:180px;
+    /* background: pink; */
+    float: left;
+}
+/* 鼠标移动第二个li效果 */
+.qianggou-li-2:hover .qianggou-text-2 h5{color: #F40}
+.qianggou-li-2:hover img{opacity: .8;}
+
+.qianggou-li-3{
+    width:360px;
+    height:180px;
+    /* background: pink; */
+    float: left;
+}
+/* 鼠标移动第三个li效果 */
+.qianggou-li-3:hover .qianggou-text-3 h5{color: #F40}
+.qianggou-li-3:hover img{opacity: .8;}
+
+/* 抢购左面图片 */
+.qianggou-li-1 img{
+    float: left;   
+}.qianggou-li-2 img{
+    float: left;   
+}.qianggou-li-3 img{
+    float: left; 
+    background: #F40;  
+}
+/* 抢购图片右面的框 */
+.qianggou-text-1{
+    width:215px;
+    height:180px;
+    background: #fff;
+    float: left;
+}.qianggou-text-2{
+    width:215px;
+    height:180px;
+    background: #fff;
+    float: left;
+}.qianggou-text-3{
+    width:180px;
+    height:180px;
+    background: #fff;
+    float: left;
+}
+/* 右面框里的第一行字体 */
+.qianggou-text-1 h5{
+    font-size:16px;
+    margin-top:14px;
+    margin-left:14px;
+}.qianggou-text-2 h5{
+    font-size:16px;
+    margin-top:14px;
+    margin-left:14px;
+}.qianggou-text-3 h5{
+    font-size:16px;
+    margin-top:14px;
+    margin-left:14px;
+}
+/* 右面框里的第二行字体 */
+.qianggou-text-1 .demo-s{
+    font-size:12px;
+    color:#999999;
+    margin-top:46px;
+    margin-left:14px;
+}.qianggou-text-2 .demo-s{
+    font-size:12px;
+    color:#999999;
+    margin-top:46px;
+    margin-left:14px;
+}.qianggou-text-3 .demo-s{
+    font-size:12px;
+    color:#999999;
+    margin-top:46px;
+    margin-left:14px;
+}
+/* 右面框里的进度条 */
+.jindutiao{
+    width:159px;
+    height:6px;
+    background: #ffe4dc;
+    border-radius: 5px;
+    margin-top:7px;
+    margin-left:14px;
+}.jindu-1{
+    width:98%;
+    height:6px;
+    background: #F40;
+    border-radius: 5px;
+}.jindu-2{
+    width:50%;
+    height:6px;
+    background: #F40;
+    border-radius: 5px;
+}.jindu-3{
+    width:65%;
+    height:6px;
+    background: #F40;
+    border-radius: 5px;
+}
+/* 进度数字横框 */
+.number-jindu{
+    width:160px;
+    margin-top:9px;
+    margin-left:14px;
+    height:12px;
+}.number-jindu .jindu-a{
+    font-size:12px;
+    color: #fe3338;
+    float: left;
+}.number-jindu .jindu-b{
+    font-size:12px;
+    color: #fe3338;
+    float: right;
+}
+/* 价格横框 */
+.number-jiage{
+    width:160px;
+    height:16px;
+    margin-top:17px;
+    margin-left:14px;
+    /* background: greenyellow; */
+}.number-jiage .jiage-a{
+    font-size:10px;
+    float: left;
+    margin-top:3px;
+    color: #ff5000;
+}.number-jiage .jiage-b{
+    font-size:16px;
+    float: left;
+    color: #ff5000;
+    margin-left:7px;
+    margin-right:10px;
+}.number-jiage .jiage-c{
+    font-size:10px;
+    float: left;
+    color: #999999;
+    margin-top:3px;
+    text-decoration:line-through;
+}
