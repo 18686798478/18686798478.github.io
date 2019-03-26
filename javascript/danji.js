@@ -141,7 +141,8 @@ var anquan = document.getElementsByClassName("an-quan")
 var anquan04 = document.getElementsByClassName("an-quan-04")
 
 var gongyi = document.getElementsByClassName("gong-yi")
-var gongyi05 = document.getElementsByClassName("gong-yi-05")
+var gongyi05 = document.getElementsByClassName("gong-yi-05");
+
 huaguo()
 gonggao01[0].style.display = "block"
 
@@ -320,4 +321,19 @@ $("#nav_three").on("click","span",function(){
     console.log($(this));
     $("#nav_three>span").removeClass();
     $(this).addClass("baobei");
+})
+
+//搜索框移动效果
+var ic = true;
+$("#baobei").on("click",function(){
+    if(ic==true){
+        $("#baobei").css("border-bottom-left-radius", "0");
+        ic=false;
+    }
+    else{
+        $("#baobei").css("border-bottom-left-radius", "20px");
+        ic = true;
+    }
+    $("#tianmao,#dianpu").slideToggle()
+   
 })

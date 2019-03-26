@@ -18,7 +18,7 @@ a{
 .xlsousuo{
     height:40px;
     width:100%;
-    background: red;
+    background: #fff;
     position: fixed;
     top:0;
     z-index: 6;
@@ -38,15 +38,15 @@ a{
     height:33px;
 }.dwssk{
     width:630px;
-    height:40px;
+    height:38px;
     float: left;
     margin-left:178px;
-    background: blue;
+    /* background: blue; */
     border-radius: 50px;
-    border:1px solid #dc6d3f;
+    border:2px solid #dc6d3f;
     position: relative;
-    z-index: 8;
-    overflow: hidden;
+    z-index: 100;
+    /* overflow: hidden; */
 }.dwssk ul{
     position: absolute;
     top:0;
@@ -55,12 +55,17 @@ a{
 }
 .dwssk li{
     width:74px;
-    height:34px;
+    height:38px;
     background: #f4f4f4;
     text-align: center;
-    
-}.dwssk li a{
-    color:#fff;
+}.dwssk li:nth-of-type(1){
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.dwssk .tianmao{display:none;}
+.dwssk .dianpu{display: none}
+.dwssk li a{
+    color:black;
     
     line-height: 40px;
 }.sousuo-1{
@@ -69,24 +74,26 @@ a{
     position: absolute;
     left:84px;
     top:5px;
+    border: none;
 }.picsousuo{
     width:23px;
     height:20px;
     position: absolute;
     top:10px;
     right:80px;
-    background: pink;
+    background: url(../image/xiangji_s.jpg);
 }.sswenzi{
     width:75px;
     height:40px;
-     
-    font-size:20px;
+    font-size:15px;
     position: absolute;
     top:0px;
     right:0px;
     border:none;
     background: #ff8601;
     color:#fff;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
@@ -722,6 +729,7 @@ a{
     border-bottom-left-radius: 20px; */
     border-radius: 20px;
     float: left;
+    position: relative;
 }
 /* 按钮大框 */
 .top_center-x .center_text .text-s .sousuo{
@@ -744,6 +752,26 @@ a{
     outline:none;
     background: url(../image/sousuo_icon.jpg) no-repeat #fff;  
 }
+/* //搜索结果 */
+.sousjg{
+    position: absolute;
+    top:37px;
+    left:15px;
+    background: #fff;
+    z-index: 8;
+    border:1px solid red;
+}.sousjg li{
+    height:30px;
+    line-height: 30px;
+    width:539px;
+}
+
+
+
+
+
+
+
 /* 搜索按钮样式 */
 .top_center-x .center_text .text-t .inpt_sbt{
     border: none;

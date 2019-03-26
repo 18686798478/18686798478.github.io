@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="head">
     <meta charset="UTF-8">
     <title>淘宝网-淘！我喜欢</title>
     <link rel="stylesheet" href="css/css_header.css">
@@ -18,13 +18,13 @@
             <div class="img-logo">
                 <img src="image/taobao_logo.png" alt="">
             </div>
-            <div class="dwssk">
+            <div class="dwssk" id="dwssk">
                 <ul>
-                    <li><a href="#">宝贝</a></li>
-                    <li><a href="#">天猫</a></li>
-                    <li><a href="#">店铺</a></li>
+                    <li id="baobei" class="baobei"><a href="javascript:;">宝贝&nbsp;∨</a></li>
+                    <li id="tianmao" class="tianmao"><a href="#">天猫</a></li>
+                    <li id="dianpu" class="dianpu"><a href="#">店铺</a></li>
                 </ul>
-                <input type="text" class="sousuo-1">
+                <input type="text" class="sousuo-1" placeholder="学生口红满天飞">
                 <div class="picsousuo"></div>
                 <button class="sswenzi">搜索</button>
             </div>
@@ -249,7 +249,10 @@
                 <div class="text-s">
                     <div class="text-t">
                         <form>
-                            <input type="text" class="inpt_t">
+                            <input type="text" class="inpt_t" id="suoyin-1" placeholder="搜索试试看">
+                            <ul class="sousjg" id="sousjg">
+                                
+                            </ul>
                             <img src="image/xiangji_s.jpg">
                             <div class="sousuo">
                                 <input type="submit" class="inpt_sbt" value="搜索">
@@ -3109,7 +3112,7 @@
                 <!-- 公告论坛部分 -->
                 <div class="nei-rong">
                     <ul class="nei-rong-ul">
-                        <li class="gong-gao"><a href="#" class="g-1">公告</a>
+                        <li class="gong-gao"><a href="javascript:;" class="g-1">公告</a>
                             <div class="gong-gao-01">
                                 <ul class="xin-wen-ul">
                                     <li class="xin-wen-01"><a href="#">阿里巴巴与星巴克达成全面战略合作</a></li>
@@ -3118,7 +3121,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="gui-ze"><a href="#" class="z-1">规则</a>
+                        <li class="gui-ze"><a href="javascript:;" class="z-1">规则</a>
                             <div class="gui-ze-02">
                                 <ul class="xin-wen-ul">
                                     <li class="xin-wen-04"><a href="#">新增《淘宝网抽检标准（商用厨房电器）》公</a></li>
@@ -3126,7 +3129,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="lun-tan"><a href="#" class="l-1">论坛</a>
+                        <li class="lun-tan"><a href="javascript:;" class="l-1">论坛</a>
                             <div class="lun-tan-03">
                                 <ul class="xin-wen-ul">
                                     <li class="xin-wen-06"><a href="#">淘宝1212活动招商</a></li>
@@ -3136,7 +3139,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="an-quan"><a href="#" class="q-1">安全</a>
+                        <li class="an-quan"><a href="javascript:;" class="q-1">安全</a>
                             <div class="an-quan-04">
                                 <ul class="xin-wen-ul">
                                     <li class="xin-wen-10"><a href="#">魔豆妈妈公益项目</a></li>
@@ -3146,7 +3149,7 @@
                                 </ul>
                                 </div>
                         </li>
-                        <li class="gong-yi"><a href="#" class="y-1">公益</a>
+                        <li class="gong-yi"><a href="javascript:;" class="y-1">公益</a>
                             <div class="gong-yi-05">
                                 <ul class="xin-wen-ul">
                                     <li class="xin-wen-14"><a href="#">淘宝公益平台正式更名</a></li>
@@ -3690,5 +3693,6 @@
     <script src="javascript/jquery.min.js"></script>
     <script src="javascript/dengluzhuce.js"></script>
     <script src="javascript/danji.js"></script>
+    <script src="javascript/sousuo.js"></script>
 </body>
 </html>
