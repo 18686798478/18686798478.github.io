@@ -21,7 +21,7 @@ setInterval(function(){
 //时间函数
 function daojishi(){
     var d = new Date();
-    var d2 = new Date(2019, 1, 27, d.getHours()+5, 0, 0);
+    var d2 = new Date(2019, 2, 27, d.getHours()+5, 0, 0);
     var timec = (d2.getTime() - d.getTime()) / 1000;
     
     var day = parseInt(timec / 60 / 60 / 24);
@@ -111,7 +111,6 @@ function fn(ele,gaodu){
             document.documentElement.scrollTop = document.documentElement.scrollTop + 15;
             if (document.documentElement.scrollTop >=gaodu) {
                 clearInterval(ele.timer)
-                console.log(1)
             }
         })
 
@@ -316,3 +315,9 @@ function movetb(ele, dir, end) {
         })
     } 
 }
+//鼠表点击搜索框上面的淘宝天猫样式
+$("#nav_three").on("click","span",function(){
+    console.log($(this));
+    $("#nav_three>span").removeClass();
+    $(this).addClass("baobei");
+})
