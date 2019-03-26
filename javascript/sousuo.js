@@ -10,7 +10,7 @@ $("#suoyin-1").on("keyup",function(){
     if ($("#suoyin-1").val()==""){
         $("#sousjg").empty()
     }
-   
+    if ($("#suoyin-1").val() != "")
 })
 
 function fn(data){
