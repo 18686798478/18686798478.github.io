@@ -3693,11 +3693,36 @@
 
         </div>
         
+     <script src="javascript/require.js" data-main="javascript/main.js"></script>
+     <script>
+                function fn(data) {
+                    console.log(data);
+                    var dd = data.result;
+                    var str = "";
+                    console.log( data.result)
+                    dd.forEach(element => {
+                        console.log(element[0]);
+                        str += `<li>${element[0]}</li>`
+                        $("#sousjg").html(str)
+                    })
+                }
+
+                function fnn(data) {
+                        console.log(data.result);
+                        var dd = data.result;
+                        var str = "";
+                        dd.forEach(element => {
+                            console.log(element[0]);
+                            str += `<li>${element[0]}</li>`
+                            $("#sousk").html(str)
+                        })
+                    }
+             
+     </script>
         
-    <script src="javascript/jquery.min.js"></script>
-    <script src="javascript/dengluzhuce.js"></script>
-    <script src="javascript/danji.js"></script>
-    <script src="javascript/sousuo.js"></script>
-     <!-- <script src="javascript/require.js" data-main="javascript/main.js"></script>模块化开发 -->
+    <!-- <script src="javascript/jquery.min.js"></script>jquery框架 -->
+    <!-- <script src="javascript/dengluzhuce.js"></script>登录注册页面js -->
+    <!-- <script src="javascript/danji.js"></script>轮播点击等事件js -->
+    <!-- <script src="javascript/sousuo.js"></script>两个搜索框索引js -->
 </body>
 </html>

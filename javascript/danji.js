@@ -1,4 +1,11 @@
-// alert("欢迎来到超级超级假淘宝")
+define(function () {
+    return init1
+})
+
+
+function init1() {
+
+
 // 点击关闭二维码框
 var erweima=document.getElementById("erweima")
 var guanbi = document.getElementById("guanbi")
@@ -337,3 +344,4 @@ $("#baobei").on("click",function(){
     $("#tianmao,#dianpu").slideToggle()
    
 })
+}
