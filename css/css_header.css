@@ -29,6 +29,7 @@ a{
     height:40px;
     margin:0 auto;
     background: #fff;
+    position: relative;
 }.ssjzk .img-logo{
     float: left;
  /* width:80px;
@@ -84,7 +85,7 @@ a{
     background: url(../image/xiangji_s.jpg);
 }.sswenzi{
     width:75px;
-    height:40px;
+    height:38px;
     font-size:15px;
     position: absolute;
     top:0px;
@@ -95,8 +96,21 @@ a{
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
 }
+.sousk{
+position: absolute;
+top:41px;
+left:334px;
+border: 1px solid red;
+background:#fff;
+}
 
-
+.sousk li{
+    width:469px;
+    height:30px;
+    line-height: 30px;
+    padding-left:10px;
+    font-size:14px;
+}
 
 
 
@@ -763,7 +777,9 @@ a{
 }.sousjg li{
     height:30px;
     line-height: 30px;
-    width:539px;
+    width:529px;
+    padding-left:10px;
+    font-size:14px;
 }
 
 
