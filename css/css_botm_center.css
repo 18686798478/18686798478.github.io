@@ -263,7 +263,147 @@ line-height: 1;
 .pinzhishenghuo{
     width:1190px;
     height:770px;
-    background: red;
+    /* background: red; */
     margin:0 auto;
     margin-top:10px;
+}
+.pinzhi-left{
+    width:590px;
+    height:770px;
+    float: left;
+    /* background: yellow; */
+}
+.pzjj{
+    width:570px;
+    height:50px;
+    background: #fff;
+    padding-left:20px;
+    line-height: 50px;
+    font-size:20px;
+    color:#28bdff;
+    font-family: 新宋体;
+    font-weight: 800;
+    border-bottom: 1px solid #f4f4f4;
+}
+.left-tt{
+        width: 294px;
+        float: left;
+}
+right-tt{
+    width: 294px;
+    float: right;
+    margin-left:
+}
+.tt1{
+    padding: 19px;
+    border-right-color: #f4f4f4;
+    width: 254px;
+    height: 317px;
+    background: #fff;
+    float: left;
+    border: 1px solid transparent;
+}.tt1:hover{    border-color: #ff5000;}
+.tt2{
+        width: 278px;
+    height: 234px;
+    border: 1px solid #f4f4f4;
+    float: left;
+    border: 1px solid transparent;
+    border-right: 1px solid #f4f4f4;
+    border-bottom-color: #fff;
+    background: #fff;
+}
+.tt4{    
+    width: 294px;
+    height: 237px;
+    float: left;
+    border: 1px solid transparent;
+    border-right: 1px solid #f4f4f4;
+     border-top: 1px solid #f4f4f4;
+    border-bottom-color: #fff;
+    background: #fff;
+    border-left: 1px solid #f4f4f4;
+}.tt4:hover{
+    border-color: #ff5000;
+}
+.tt3{
+    width:292px;
+    height: 118px;
+    border-top-color: #f4f4f4;
+    border-right-color: #f4f4f4;
+    display: block;
+    border: 1px solid transparent;
+    float: left;
+    background: #fff;
+        margin-top: 1px;
+}.tt3:hover{border-color: #ff5000;}
+.item-hd{
+ padding-top: 35px;
+    float: left;
+    padding-left: 40px;
+    width: 122px;
+    font-size: 14px;
+    
+}.item-hd h4{    
+    height: 30px;
+    line-height: 30px;
+}.item-hd p{
+    color: #999;
+    line-height: 20px;
+    font-size: 12px;
+}
+.item-bd{
+    margin-left: 162px;
+    padding-top: 10px;
+}.time-bd img{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pinzhi-right{
+    width:590px;
+    height:770px;
+    float: right;
+}
+.tsww{
+    width:570px;
+    height:50px;
+    background: #fff;
+    padding-left:20px;
+    line-height: 50px;
+    font-size:20px;
+    color:#ff5000;
+    font-family: 新宋体;
+    font-weight: 800;
+    border-bottom: 1px solid #f4f4f4;
+}
+.pinzhishenghuo img{
+    opacity: 1;
+    transition: all 0.4s;
+   
+    
+}
+.pinzhishenghuo img:hover{
+    opacity: 0.8;
+    transform: scale(1.06);
 }
